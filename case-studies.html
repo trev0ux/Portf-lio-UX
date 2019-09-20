@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <title>Portfólio</title>
+
+  <!-- CSS  -->
+  <link href="css/smartphone.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <!--SCRIPTS -->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+</head>
+
+<body class="home">
+  <div class="preloader"></div>
+  <!--MENU -->
+  <header>
+    <nav class="nav" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Lucas Amorim Lopes</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="case-studies.html">Portfólio</a></li>
+          <li><a href="about.html">Sobre</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </nav>
+    <nav>
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="case-studies.html">Portfólio</a></li>
+        <li><a href="about.html">Sobre</a></li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+
+  <div class="page section">
+    <div class="row container">
+      <br><br>
+      <div class="col s6">
+        <h2 class="title-case">Design UX/UI</h2>
+        <br><br>
+      </div>
+      <!-- ESTUDO DE CASO -->
+      <div class="col s10">
+        <div class="produto-div">
+          <img class="portfolio materialboxed responsive-img" width="60%" height="auto" src="/img/Tabloid.png">
+          <a class="button-casestudy" href="entropia-app.html"><br><span class="name-button">Ver Estudo de Caso</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer class="copyright">
+    <small> Lucas Amorim ©2019, lucas.lopes5@hotmail.com
+    </small>
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.materialboxed').materialbox();
+    });
+  </script>
+
+</body>
+
+</html>
