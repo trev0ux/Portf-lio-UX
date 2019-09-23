@@ -252,7 +252,7 @@
 
   .height-90 {
     height: 90vh;
-    background-image: url("https://uploaddeimagens.com.br/imagens/product-background-png");
+    background-image: url("/img/product-background-png");
     background-repeat: no-repeat;
     width: auto;
   }
