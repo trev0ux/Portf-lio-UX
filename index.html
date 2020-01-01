@@ -13,8 +13,11 @@
   <link href="css/smartphone.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--SCRIPTS -->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
@@ -22,14 +25,19 @@
 </head>
 
 <body>
-  <div class="preloader"></div>
+  <div class="preloader animation"></div>
   <!--MENU -->
-  <header>
+  <header class="header">
     <nav class="nav" role="navigation">
-      <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Lucas Amorim Lopes</a>
+      <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo hvr-buzz-out">Lucas
+          Amorim
+          Lopes</a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="case-studies.html">Portfólio</a></li>
-          <li><a href="about.html">Sobre</a></li>
+          <li class="hvr-underline-from-left"><a href="case-studies.html">Portfólio</a></li>
+          <li class="hvr-underline-from-left"><a href="about.html">Sobre</a></li>
+          <li class="hvr-underline-from-left"><a
+              href="https://docs.google.com/document/d/1SkvuNIVmbiOBJYDJpr_g3txak096oD4IC7_JTpKpgQY/edit?usp=sharing">Currículo</a>
+          </li>
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </nav>
@@ -38,6 +46,7 @@
         <li><a href="index.html">Início</a></li>
         <li><a href="case-studies.html">Portfólio</a></li>
         <li><a href="about.html">Sobre</a></li>
+        <li><a href="https://drive.google.com/file/d/1Y7QN4CnYGu3KFMjDhiVnVoa-LIvkwww6/view?usp=sharing">Currículo</a>
       </ul>
     </nav>
     </div>
@@ -46,22 +55,81 @@
   <!--INICIO-->
   <div class="page-section1" id="index-banner">
     <div class="row container">
-      <div class="col s12">
-        <div class="card">
-          <br>
-          <h1 class="header center text">Oláaa! me chamo Lucas Amorim e sou um programador focado em Design UX/UI.</h1>
-          <div class="row center">
-            <a href="entropia-app.html" class="btn-large waves-effect waves-light">Ótimo! Vamos ver algum trabalho</a>
+      <div class="col s6">
+        <br>
+        <span class="header left text hvr-wobble-top">Oláaa!</span>
+        <br>
+        <br>
+        <br>
+        <div class="apresentation">
+          <p class="title-2 hvr-buzz-out">m</p>
+          <p class="title-2 hvr-buzz-out">e</p>
+          <p class="title-2 hvr-buzz-out">c</p>
+          <p class="title-2 hvr-buzz-out">h</p>
+          <p class="title-2 hvr-buzz-out">a</p>
+          <p class="title-2 hvr-buzz-out">m</p>
+          <p class="title-2 hvr-buzz-out">o</p>
+          <div class="espaco">
+            <p class="title-2 hvr-buzz-out">L</p>
+            <p class="title-2 hvr-buzz-out">u</p>
+            <p class="title-2 hvr-buzz-out">c</p>
+            <p class="title-2 hvr-buzz-out">a</p>
+            <p class="title-2 hvr-buzz-out">s</p>
           </div>
-          <br><br>
+          <div class="espaco">
+            <p class="title-2 hvr-buzz-out">A</p>
+            <p class="title-2 hvr-buzz-out">m</p>
+            <p class="title-2 hvr-buzz-out">o</p>
+            <p class="title-2 hvr-buzz-out">r</p>
+            <p class="title-2 hvr-buzz-out">i</p>
+            <p class="title-2 hvr-buzz-out">m</p>
+          </div>
         </div>
+        <p class="description-container">Sou programador e Designer UX/UI. Eu me concentro em
+          criar
+          soluções bonitas,
+          úteis e agradáveis com foco no
+          usuário agindo agilmente com a equipe de desenvolvimento, com uma abordagem capaz de diminuir prazos e
+          entregar um projeto promissor</p>
+        <br><br>
+        </div=>
+      </div>
+      <div class="col s6">
+        <img class="itens" src="img/itens.png">
+      </div>
+    </div>
+    <div class="row container">
+      <div class="col s12">
+        <span class="hvr-icon"><a href="#index-banner2" title="End" class="arrow down hvr-icon-hang">down</a></span>
+      </div>
+    </div>
+  </div>
+  <div class="page-section2" id="index-banner2">
+    <div class="row container">
+      <div class="col s6">
+        <h2 class="title-section2 hvr-wobble-top">Entropia: </h2>
+        <p class="subtitle-section2 ">Conectando stakeholders</p>
+        <hr class="line-section2">
+        <span class="description-section2">Úteis ferramentas de estímulo cognitivo que viabiliza conexões que não seria
+          possíveis de outra forma.
+        </span>
+        <a href="entropia-app.html"><button class="button-section2">Ver projeto</button></a>
+      </div>
+      <div class="col s6">
+        <img class="entropia-celular" src="img/Área de inovação (2) 1.png">
       </div>
     </div>
   </div>
   <footer class="copyright">
-    <small> Lucas Amorim ©2019, lucas.lopes5@hotmail.com
-    </small>
-
+    <span class="name"> Lucas Amorim Lopes ©2019
+    </span>
+    <div class="links-copyright">
+      <a href="https://www.linkedin.com/in/lucas-a-618075138/"><span class="link hvr-sweep-to-right">LinkedIn</span></a>
+      <a href="https://github.com/trev0ux"><span class="link hvr-sweep-to-right">GitHub</span></a>
+      <a href="https://gitlab.com/trev0ux"><span class="link hvr-sweep-to-right"
+          href="https://gitlab.com/trev0ux">GitLab</span></a>
+      <a href="mailto:lucas.lopes5@hotmail.com"><span class="link hvr-sweep-to-right">E-mail</span></a>
+    </div>
   </footer>
 
 </body>

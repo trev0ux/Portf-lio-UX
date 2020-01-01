@@ -14,7 +14,8 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900&display=swap"
+    rel="stylesheet">
   <!--SCRIPTS -->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
@@ -26,10 +27,14 @@
   <!--MENU -->
   <header>
     <nav class="nav" role="navigation">
-      <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Lucas Amorim Lopes</a>
+      <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo hvr-buzz-out">Lucas
+          Amorim
+          Lopes</a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="case-studies.html">Portfólio</a></li>
-          <li><a href="about.html">Sobre</a></li>
+          <li class="hvr-underline-from-left"><a href="case-studies.html">Portfólio</a></li>
+          <li class="hvr-underline-from-left"><a href="about.html">Sobre</a></li>
+          <li class="hvr-underline-from-left"><a
+              href="https://drive.google.com/file/d/1Y7QN4CnYGu3KFMjDhiVnVoa-LIvkwww6/view?usp=sharing">Currículo</a>
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </nav>
@@ -38,39 +43,78 @@
         <li><a href="index.html">Início</a></li>
         <li><a href="case-studies.html">Portfólio</a></li>
         <li><a href="about.html">Sobre</a></li>
+        <li><a href="https://drive.google.com/file/d/1Y7QN4CnYGu3KFMjDhiVnVoa-LIvkwww6/view?usp=sharing">Currículo</a>
       </ul>
     </nav>
     </div>
   </header>
 
-  <div class="page section">
+  <div class="page-section1">
+
+
     <div class="row container">
-      <br><br>
       <div class="col s6">
-        <h2 class="title-case">Design UX/UI</h2>
-        <br><br>
+        <div class="card">
+          <div class="card-image">
+            <img class="portfolio materialboxed responsive-img" width="60%" height="auto" src="img/Frame 2.png">
+          </div>
+          <a href="entropia-app.html">
+            <div class="card-content">
+              <span class="card-title">Estudo de Caso: Entropia</span>
+              <span class="card-sub-title">UX/UI</span>
+              <p class="description-card">Úteis ferramentas de estímulo cognitivo que viabiliza conexões que não
+                seriam possíveis de outra
+                forma.</p>
+            </div>
+          </a>
+          <div class="card-action">
+            <a href="entropia-app.html">Ver Estudo de Caso</a>
+          </div>
+        </div>
       </div>
-      <!-- ESTUDO DE CASO -->
-      <div class="col s10">
-        <div class="produto-div">
-          <img class="portfolio materialboxed responsive-img" width="60%" height="auto" src="img/Tabloid.png">
-          <a class="button-casestudy" href="entropia-app.html"><br><span class="name-button">Ver Estudo de Caso</span></a>
+      <div class="col s6">
+        <div class="card">
+          <div class="card-image">
+            <img class="portfolio materialboxed responsive-img" width="60%" height="auto" src="img/Desktop - 2.png">
+          </div>
+          <a href="https://drive.google.com/file/d/1YqRJfG_xyQxlW67rmhom3j6aGDfhHuir/view?usp=sharing">
+            <div class="card-content">
+              <span class="card-title">Especificação de Requisitos: EcoLuz</span>
+              <span class="card-sub-title">Análise e Levantamento de Requisitos</span>
+              <p class="description-card">Requisitos funcionais e não funcionais do sistema de monitoramento e aluguel
+                para
+                placas solares.</p>
+            </div>
+          </a>
+          <div class="card-action blue">
+            <a href="https://drive.google.com/file/d/1YqRJfG_xyQxlW67rmhom3j6aGDfhHuir/view?usp=sharing">Ver
+              Documentação</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
+
+  </div>
+  </div>
   </div>
   <footer class="copyright">
-    <small> Lucas Amorim ©2019, lucas.lopes5@hotmail.com
-    </small>
-
+    <span class="name"> Lucas Amorim Lopes ©2019
+    </span>
+    <div class="links-copyright">
+      <a href="https://www.linkedin.com/in/lucas-a-618075138/"><span class="link hvr-sweep-to-right">LinkedIn</span></a>
+      <a href="https://github.com/trev0ux"><span class="link hvr-sweep-to-right">GitHub</span></a>
+      <a href="https://gitlab.com/trev0ux"><span class="link hvr-sweep-to-right"
+          href="https://gitlab.com/trev0ux">GitLab</span></a>
+      <a href="mailto:lucas.lopes5@hotmail.com"><span class="link hvr-sweep-to-right">E-mail</span></a>
+    </div>
   </footer>
 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       $('.materialboxed').materialbox();
     });
   </script>

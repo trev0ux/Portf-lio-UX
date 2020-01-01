@@ -1,0 +1,22 @@
+{
+  "name": "portf-lio-ux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/trev0ux/portf-lio-ux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/trev0ux/portf-lio-ux/issues"
+  },
+  "homepage": "https://gitlab.com/trev0ux/portf-lio-ux#readme",
+  "dependencies": {
+    "http-server": "^0.12.0"
+  }
+}
