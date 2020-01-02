@@ -2129,6 +2129,7 @@
 
 .white-text {
   color: #FFFFFF !important;
+  font-size: 16px;
 }
 
 .transparent {
@@ -3232,10 +3233,11 @@ th {
 
 .progress {
   position: relative;
-  height: 4px;
+  height: 15px;
   display: block;
   width: 100%;
-  background-color: #acece6;
+  background-color:
+    #ee9b82;
   border-radius: 2px;
   margin: 0.5rem 0 1rem 0;
   overflow: hidden;
@@ -3246,8 +3248,8 @@ th {
   top: 0;
   left: 0;
   bottom: 0;
-  background-color: #26a69a;
-  -webkit-transition: width .3s linear;
+  background-color:
+    #ffb323;
   transition: width .3s linear;
 }
 
@@ -3444,6 +3446,8 @@ nav ul a span.badge {
   line-height: 22px;
   height: 22px;
   -webkit-font-smoothing: auto;
+
+
 }
 
 .collection-item span.badge {
@@ -3528,7 +3532,7 @@ table span.badge {
   float: left;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 0 0.75rem;
+  padding: 0 0;
   min-height: 1px;
 }
 
@@ -4478,7 +4482,7 @@ nav.nav-extended .nav-content {
 }
 
 nav a {
-  color: #fff;
+  color: #484848;
 }
 
 nav i,
@@ -4504,10 +4508,10 @@ nav .nav-wrapper {
 
 nav .sidenav-trigger {
   float: left;
-  position: relative;
+  position: fixed;
   z-index: 1;
   height: 56px;
-  margin: 0 18px;
+  margin: -11px 0px 10px 5px;
 }
 
 nav .sidenav-trigger i {
@@ -4515,17 +4519,6 @@ nav .sidenav-trigger i {
   line-height: 56px;
 }
 
-nav .brand-logo {
-  position: absolute;
-  color: #484848;
-  display: inline-block;
-  font-size: 2.1rem;
-  padding: 0;
-
-  font-size: 24px;
-
-  font-weight: 500;
-}
 
 nav .brand-logo.center {
   left: 50%;
@@ -4535,9 +4528,9 @@ nav .brand-logo.center {
 
 @media only screen and (max-width: 992px) {
   nav .brand-logo {
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+    left: 30%;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
   }
 
   nav .brand-logo.left,
@@ -4588,8 +4581,9 @@ nav ul li {
 }
 
 nav ul li.active {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.61);
 }
+
 
 nav ul a {
   -webkit-transition: background-color .3s;
@@ -4597,10 +4591,27 @@ nav ul a {
   font-size: 1rem;
   color: rgba(134, 134, 134, 100%);
   display: block;
-  color: #484848;
+  color: rgb(233, 230, 230);
   padding: 0 15px;
   cursor: pointer;
   font-weight: 600;
+
+  text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0, 0, 0, .1),
+    0 0 5px rgba(0, 0, 0, .1),
+    0 1px 3px rgba(0, 0, 0, .3),
+    0 3px 5px rgba(0, 0, 0, .2),
+    0 5px 10px rgba(0, 0, 0, .25),
+    0 10px 10px rgba(0, 0, 0, .2),
+    0 20px 20px rgba(0, 0, 0, .15);
+}
+
+.nav-ul-a:hover {
+  background-color: rgba(0, 0, 0, 0.486) !important;
 }
 
 
@@ -7842,6 +7853,10 @@ input[type=range]::-ms-thumb {
   margin: 0;
 }
 
+.icons {
+  margin-top: 300px;
+}
+
 .sidenav li {
   float: none;
   line-height: 48px;
@@ -7858,7 +7873,7 @@ input[type=range]::-ms-thumb {
   font-weight: 500;
   height: 48px;
   line-height: 48px;
-  padding: 0 32px;
+  padding: 0 25px;
 }
 
 .sidenav li>a:hover {

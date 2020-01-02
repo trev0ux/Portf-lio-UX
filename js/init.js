@@ -9,12 +9,12 @@
 $(window).load(function () {
   $('.preloader').fadeOut('slow');
 
-  $(document).ready(function () {
-    $('.target').pushpin({
-      top: 0,
-      bottom: 600,
-      offset: 400
-    });
-  });
 
+});
+
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".nav");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
 });

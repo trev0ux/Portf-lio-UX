@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 900px) {
   .preloader {
     position: absolute;
     top: 0;
@@ -150,6 +150,7 @@
     font-weight: 600;
     font-size: 20px;
     text-align: justify;
+    width: 40vw;
 
 
 
@@ -205,6 +206,7 @@
 
   .button-section2:hover {
     background-color: white;
+    color: #FFAC33;
   }
 
 
@@ -220,12 +222,29 @@
     transition-duration: 0.3s;
   }
 
+  .teste-description {
+    margin: 15px;
+  }
+
   .title-section2 {
     color:
       #fff;
     margin-top: 150px;
     font-weight: 800;
     font-size: 72px;
+
+    text-shadow: 0 1px 0 #ccc,
+      0 2px 0 #c9c9c9,
+      0 3px 0 #bbb,
+      0 4px 0 #b9b9b9,
+      0 5px 0 #aaa,
+      0 6px 1px rgba(0, 0, 0, .1),
+      0 0 5px rgba(0, 0, 0, .1),
+      0 1px 3px rgba(0, 0, 0, .3),
+      0 3px 5px rgba(0, 0, 0, .2),
+      0 5px 10px rgba(0, 0, 0, .25),
+      0 10px 10px rgba(0, 0, 0, .2),
+      0 20px 20px rgba(0, 0, 0, .15);
   }
 
   .line-section2 {
@@ -266,8 +285,8 @@
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     margin-right: 35%;
-
-    margin-top: -50px;
+    transition: color 1000ms linear;
+    margin-top: -90px;
   }
 
   .arrow .hvr-icon {
@@ -302,8 +321,8 @@
   .arrow {
     display: inline-block;
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background: transparent;
     text-indent: -9999px;
     border-top: 2px solid #bfbfbf;
@@ -386,7 +405,8 @@
   .page.section {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     color: #000;
-    background-color: #ffebbb;
+    background-color: #FFCCBC;
+    ;
   }
 
   .nav ul {
@@ -406,6 +426,19 @@
     list-style-type: none;
     position: relative;
     height: 100%;
+  }
+
+  .nav.scrolled {
+    color: #fff !important;
+    transition: color 1000ms linear;
+  }
+
+  .nav.scrolled ul a {
+    color: #fff;
+  }
+
+  .nav.scrolled .brand-logo {
+    color: #fff;
   }
 
   .page.section {
@@ -543,7 +576,7 @@
 
   nav .brand-logo {
     position: absolute;
-    color: #484848;
+    color: #ffff;
     display: inline-block;
     font-size: 1.3rem;
     padding: 0;
@@ -551,29 +584,41 @@
     font-size: 24px;
 
     font-weight: 500;
+
+    text-shadow: 0 1px 0 #ccc,
+      0 2px 0 #c9c9c9,
+      0 3px 0 #bbb,
+      0 4px 0 #b9b9b9,
+      0 5px 0 #aaa,
+      0 6px 1px rgba(0, 0, 0, .1),
+      0 0 5px rgba(0, 0, 0, .1),
+      0 1px 3px rgba(0, 0, 0, .3),
+      0 3px 5px rgba(0, 0, 0, .2),
+      0 5px 10px rgba(0, 0, 0, .25),
+      0 10px 10px rgba(0, 0, 0, .2),
+      0 20px 20px rgba(0, 0, 0, .15);
   }
 
   .entropia-celular {
-    height: 700px;
-    margin-top: 30px;
+    height: 550px;
+    margin-top: 50px;
   }
 
   .itens {
-    width: 40vw;
-    margin: 80px 50px 40px 30px;
+    height: 80vh;
+    margin: 0px 50px 0px 100px;
   }
 
   .page-section1 {
     height: 100vh;
-    background-color: #FFEBBB;
+    background-color: #FFCCBC;
+    ;
     background-repeat: no-repeat;
   }
 
   header {
 
-    background-color:
-
-      #ffebbb;
+    background-color: #FFCCBC;
 
   }
 
@@ -633,7 +678,7 @@
   }
 
   .header.left.text {
-    color: #000;
+    color: #ffff;
     font-size: 65px;
     font-weight: 400;
     text-align: left;
@@ -788,7 +833,7 @@
   }
 
   .title-2 {
-    color: black;
+    color: #fff;
 
     display: grid;
 
@@ -796,13 +841,13 @@
 
     grid-gap: 1.5rem;
 
-    font-size: 35px;
+    font-size: 40px;
 
     float: left;
 
     margin: 5px 5px 0px 0px;
 
-    font-weight: 500;
+    font-weight: 600;
 
     text-shadow: 0 1px 0 #ccc,
       0 2px 0 #c9c9c9,
@@ -816,6 +861,7 @@
       0 5px 10px rgba(0, 0, 0, .25),
       0 10px 10px rgba(0, 0, 0, .2),
       0 20px 20px rgba(0, 0, 0, .15);
+
   }
 
   .eu-praia {
@@ -849,7 +895,8 @@
   }
 
   .img-height {
-    width: 1300px;
+    width: 900px;
+    margin: 60px 150px 150px 150px;
   }
 
   .header2.center.text.title1 {
@@ -861,7 +908,7 @@
   }
 
   .header-entropia {
-    background-color: #FFAC33;
+    background-color: #ffb54a;
   }
 
   .rubrica {
@@ -975,7 +1022,7 @@
 
   .height-90 {
     height: 100vh;
-    background: #ffac33;
+    background: #ffb54a;
     width: auto;
   }
 
@@ -1066,10 +1113,12 @@
   .title {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-weight: 600;
-    font-size: 32px;
-    text-align: justify;
-    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
     margin-bottom: auto;
+    text-transform: uppercase;
+
   }
 
   .descricao {
@@ -1169,9 +1218,29 @@
   }
 
   .espaco {
+    position: relative;
+    left: 5px;
+  }
 
-    margin-left: 195px;
 
+  .progress-p {
+    text-align: left;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    color:
+      #484848;
+  }
+
+  .ver-mais {
+    position: relative;
+    bottom: 100px;
+    left: 6px;
+    font-weight: 400;
+    color:
+      #6c6a6a;
   }
 
   .card-entropia {
@@ -1180,21 +1249,16 @@
     margin-left: 10%;
     transition: box-shadow .25s, -webkit-box-shadow .25s;
     border-radius: 2px;
-    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.5);
-
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
     position: absolute;
-
     margin-top: -350px;
-
-    background:
-      #ffac33;
-
+    background: #ffaf5a;
     font-size: 20px;
-
     color:
-
       white;
     padding: 10px;
+    font-weight: 700;
+    text-align: justify;
 
   }
 
@@ -1208,7 +1272,7 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    background-color: #FFE70B9E;
+    background-color: rgba(206, 191, 32, 0.65);
     width: 100%;
     height: 10vh;
     font-size: 20px;
